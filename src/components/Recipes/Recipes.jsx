@@ -1,18 +1,25 @@
 import { useEffect, useState } from "react";
+import Recipe from "../Recipe/Recipe";
 
 
-const Recipe = () => {
+
+
+
+const Recipes = () => {
     const [recipes, setRescipes] = useState([])
     useEffect(() => {
         fetch('recipe.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setRescipes(data))
     },[])
+    console.log(recipes)
     return (
-        <div>
-            
+        <div className="container mx-auto px-3 grid grid-cols-2 gap-5">
+            {
+                recipes.map(item => <Recipe key={item.id} recipe={item}></Recipe>)
+            }
         </div>
     );
 };
 
-export default Recipe;
+export default Recipes;
