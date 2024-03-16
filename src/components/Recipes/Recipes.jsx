@@ -14,7 +14,7 @@ const Recipes = () => {
     },[])
     console.log(recipes)
     return (
-        <div className="container mx-auto px-3 grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-5">
             {
                 recipes.map(item => <Recipe key={item.id} recipe={item}></Recipe>)
             }

@@ -51,7 +51,7 @@
       "ingredients": ["200 g flour", "150 g sugar", "100 g cocoa powder", "4 eggs", "200 ml milk", "150 g butter"],
       "preparing_time": 25,
       "calories": "400 calories",
-      "image": "https://img.freepik.com/free-photo/fruit-cake-with-chocolate-chips-blueberries_176474-2965.jpg?t=st=1710590807~exp=1710594407~hmac=2292dfcf94306c2869f5ad29e2db0206df4e210658416f37ecb930e930d1e59e&w=1380"
+      "image": "https://img.freepik.com/free-photo/front-view-delicious-cake-concept_23-2148769292.jpg?w=996&t=st=1710623859~exp=1710624459~hmac=bed4e0ae530ba1d774513ecf17f7683c38cba002167fc09f968e4ea5691baf3b"
   },
   {
       "id": 7,
@@ -65,7 +65,7 @@
           "Lemon wedges for serving"
       ],
       "preparing_time": 25,
-      "calories": "Calories can vary based on serving size and cooking method",
+      "calories": "280 calories",
       "image": "https://img.freepik.com/free-photo/large-river-prawns-grilled-ready-eat-decorated-with-beautiful-side-dishes_1150-24140.jpg?t=st=1710614979~exp=1710618579~hmac=97363ea618599712c91fe9831bdaa3a7eebc59ee59562bc71359a6b975435362&w=1480"
   },
   {
@@ -75,13 +75,11 @@
       "ingredients": [
           "200g shrimp, peeled and deveined",
           "200g squid, cleaned and sliced into rings",
-          "1 tomato, diced",
-          "1 cucumber, sliced",
           "2-3 Thai chilies, finely chopped (adjust to taste)",
           "2 tablespoons lime juice"
       ],
       "preparing_time": 30,
-      "calories": "Calories may vary based on serving size and ingredients used",
+      "calories": "250 calories",
       "image": "https://img.freepik.com/free-photo/spicy-mixed-seafood-salad-with-thai-food-ingredients_1150-26435.jpg?t=st=1710615182~exp=1710618782~hmac=7ac5eeb41afd8a747b39128b9d3f86f97e9bd9f28ee4936ab83e200868d5d3ab&w=1480"
   }
 ]

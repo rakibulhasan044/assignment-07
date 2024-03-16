@@ -8,7 +8,14 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Recipes></Recipes>
+    <div className='container mx-auto px-3 flex gap-6'>
+    <div className='w-3/5'>
+      <Recipes></Recipes>
+    </div>
+    <div>
+      <h2>40%</h2>
+    </div>
+    </div>
     
     </>
   )
