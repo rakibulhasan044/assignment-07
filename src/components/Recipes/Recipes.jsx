@@ -10,7 +10,7 @@ const Recipes = ({ wantToCook }) => {
       .then((data) => setRescipes(data));
   }, []);
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
       {recipes.map((item) => (
         <Recipe key={item.id} recipe={item} wantToCook={wantToCook}></Recipe>
       ))}
