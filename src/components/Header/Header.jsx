@@ -2,7 +2,7 @@ import Frame from './images/Frame.png'
 const Header = () => {
   return (
     <div className="container mx-auto px-3">
-      <nav className="">
+      <nav className="mb-6">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -84,9 +84,7 @@ const Header = () => {
               class tailored for you!
             </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            Discover delectable delights with our recipe. From savory main courses to irresistible desserts, we offer a diverse collection of culinary creations to inspire your kitchen adventures. Explore our easy-to-follow recipes and expert tips.
             </p>
             <div className="flex gap-5 justify-center">
             <button className="bg-green-500 px-5 py-2 rounded-3xl">

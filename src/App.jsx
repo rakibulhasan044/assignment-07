@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="container mx-auto px-3 flex gap-4">
+      <div className="container mx-auto px-3 flex gap-4 mt-14">
         <div className="w-3/5">
           <Recipes wantToCook={wantToCook}></Recipes>
         </div>

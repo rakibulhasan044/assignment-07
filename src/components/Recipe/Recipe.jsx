@@ -27,7 +27,7 @@ const Recipe = ({ recipe, wantToCook }) => {
       </div>
       <button
         onClick={() => wantToCook(recipe)}
-        className="btn bg-green-500 rounded-3xl w-2/4"
+        className="btn bg-green-500 rounded-3xl lg:w-3/5"
       >
         Want to cook
       </button>

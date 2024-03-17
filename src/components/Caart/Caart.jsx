@@ -17,7 +17,6 @@ const Caart = ({ cook, prepairFood, preparing }) => {
                 <th>Name</th>
                 <th>Time</th>
                 <th>Calories</th>
-                <th>fffk{cook.name}</th>
               </tr>
             </thead>
             <tbody>
@@ -42,7 +41,7 @@ const Caart = ({ cook, prepairFood, preparing }) => {
         </div>
 
         <h3 className="text-3xl font-semibold text-center">
-          Want to cook: {preparing.length}
+          Currently cooking: {preparing.length}
         </h3>
         <hr />
         <div className="overflow-x-auto">
