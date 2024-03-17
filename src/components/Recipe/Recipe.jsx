@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faFireFlameSimple} from '@fortawesome/free-solid-svg-icons'
 const Recipe = ({ recipe, wantToCook }) => {
   const { name, image, description, ingredients, preparing_time, calories } =
     recipe;
@@ -20,8 +22,8 @@ const Recipe = ({ recipe, wantToCook }) => {
       </ul>
       <hr className="" />
       <div className="flex gap-6 justify-between">
-        <p>{preparing_time} min</p>
-        <p>{calories} calories</p>
+        <p><FontAwesomeIcon className="px-2" icon={faClock}/>      {preparing_time} min</p>
+        <p><FontAwesomeIcon className="px-2" icon={faFireFlameSimple}/>{calories} calories</p>
       </div>
       <button
         onClick={() => wantToCook(recipe)}
