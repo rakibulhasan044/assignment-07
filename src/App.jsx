@@ -3,6 +3,8 @@ import "./App.css";
 import Caart from "./components/Caart/Caart";
 import Header from "./components/Header/Header";
 import Recipes from "./components/Recipes/Recipes";
+import { ToastContainer, toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [cook, setCook] = useState([]);
@@ -11,8 +13,9 @@ function App() {
     const isExist = cook.find((p) => p.id === item.id);
     if (!isExist) {
       setCook([...cook, item]);
+      toast.success("Item added !")
     } else {
-      alert("already exist");
+      toast.warn("Already selected!")
     }
   };
   const prepairFood = (i) => {
@@ -20,6 +23,7 @@ function App() {
     const isExist = preparing.find((p) => p.id === i.id);
     if (!isExist) {
       setPreparing([...preparing, i]);
+      toast.success("Preparing item !")
     }
     console.log(newCook);
     console.log("delete");
@@ -27,6 +31,7 @@ function App() {
       setCook(newCook);
     }
   };
+
 
   return (
     <>
@@ -43,6 +48,7 @@ function App() {
           ></Caart>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
