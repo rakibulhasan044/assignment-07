@@ -5,7 +5,7 @@
       "name": "Chicken Curry",
       "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushrooms"],
       "preparing_time": 35,
-      "calories": "380 calories",
+      "calories": 440,
       "image": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?t=st=1710592415~exp=1710596015~hmac=6650598976a97c684daafd6f570239309f587408f0d951c360a780cb403b2b31&w=1800"
   },
   {
@@ -14,7 +14,7 @@
       "name": "Spaghetti Bolognese",
       "ingredients": ["400 g spaghetti", "250 g ground beef", "1 can tomato sauce", "1 onion", "2 cloves garlic"],
       "preparing_time": 30,
-      "calories": "450 calories",
+      "calories": 350,
       "image": "https://img.freepik.com/free-photo/spaghetti-with-bolognese-sauce-wooden-tablexa_123827-22960.jpg?t=st=1710591128~exp=1710594728~hmac=e68686dcf82e53695b2a12e27f394f3102e3a69849aaa8a7c89224fd476b5586&w=1800"
   },
   {
@@ -23,7 +23,7 @@
       "name": "Beef Stew",
       "ingredients": ["500 g stewing beef", "4 carrots", "3 potatoes", "1 onion", "2 cups beef broth"],
       "preparing_time": 40,
-      "calories": "380 calories",
+      "calories": 600,
       "image": "https://img.freepik.com/free-photo/delicious-goulash-ready-dinner_23-2149370833.jpg?t=st=1710591039~exp=1710594639~hmac=bc22ca150de13c419183573407c207f9e0bf7079bacc44d9ca1fa177e15dad31&w=1800"
   },
   {
@@ -32,7 +32,7 @@
       "name": "Grilled Salmon",
       "ingredients": ["4 salmon fillets", "2 lemons", "4 tbsp butter", "Salt and pepper"],
       "preparing_time": 20,
-      "calories": "320 calories",
+      "calories": 300,
       "image": "https://img.freepik.com/free-photo/grilled-salmon-with-asparagus-white-plate-isolated-black-background_123827-29142.jpg?t=st=1710614531~exp=1710618131~hmac=520d6cac2a6d16636963039645360358bdd48028600e5372a17a7fb29889d5e7&w=1480"
   },
   {
@@ -41,7 +41,7 @@
       "name": "Vegetarian Pizza",
       "ingredients": ["Pizza dough", "200 g mozzarella cheese", "Assorted vegetables (bell peppers, mushrooms, olives)"],
       "preparing_time": 15,
-      "calories": "300 calories",
+      "calories": 280,
       "image": "https://img.freepik.com/free-photo/tasty-homemade-traditional-pizza-italian-recipe_24972-2141.jpg?t=st=1710590936~exp=1710594536~hmac=22332e8930de3c6cca7a28a25c589058de17f79c3eb29631cd7f7d99720c5780&w=1800"
   },
   {
@@ -50,7 +50,7 @@
       "name": "Chocolate Cake",
       "ingredients": ["200 g flour", "150 g sugar", "100 g cocoa powder", "4 eggs", "200 ml milk", "150 g butter"],
       "preparing_time": 25,
-      "calories": "400 calories",
+      "calories": 250,
       "image": "https://img.freepik.com/free-photo/front-view-delicious-cake-concept_23-2148769292.jpg?w=996&t=st=1710623859~exp=1710624459~hmac=bed4e0ae530ba1d774513ecf17f7683c38cba002167fc09f968e4ea5691baf3b"
   },
   {
@@ -65,13 +65,13 @@
           "Lemon wedges for serving"
       ],
       "preparing_time": 25,
-      "calories": "280 calories",
+      "calories": 280,
       "image": "https://img.freepik.com/free-photo/large-river-prawns-grilled-ready-eat-decorated-with-beautiful-side-dishes_1150-24140.jpg?t=st=1710614979~exp=1710618579~hmac=97363ea618599712c91fe9831bdaa3a7eebc59ee59562bc71359a6b975435362&w=1480"
   },
   {
       "id": 8,
       "description": "Enjoy a spicy and refreshing salad featuring mixed seafood.",
-      "name": "Spicy Mixed Seafood Salad",
+      "name": "Mixed Seafood Salad",
       "ingredients": [
           "200g shrimp, peeled and deveined",
           "200g squid, cleaned and sliced into rings",
@@ -79,7 +79,7 @@
           "2 tablespoons lime juice"
       ],
       "preparing_time": 30,
-      "calories": "250 calories",
+      "calories": 250,
       "image": "https://img.freepik.com/free-photo/spicy-mixed-seafood-salad-with-thai-food-ingredients_1150-26435.jpg?t=st=1710615182~exp=1710618782~hmac=7ac5eeb41afd8a747b39128b9d3f86f97e9bd9f28ee4936ab83e200868d5d3ab&w=1480"
   }
 ]
